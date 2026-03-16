@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'peterkavinsky'
         required: true
-        default: 'peterkavinsky'
+        default: 'peterkavinsky AI agent'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "peterkavinsky", "description": "peterkavinsky"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "peterkavinsky", "description": "peterkavinsky AI Agent"}'
