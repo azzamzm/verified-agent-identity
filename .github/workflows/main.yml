@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'peterkavinsky'
         required: true
-        default: 'peterkavinsky'
+        default: 'peterkavinsky AI Agent'
 
 jobs:
   verify:
